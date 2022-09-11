@@ -38,7 +38,7 @@
 
 /* add dau gach */
 .navbar__item--sperate::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   border-right: 2px solid #fb9086;
@@ -95,7 +95,7 @@
 
 /* Create bridge */
 .navbar__containqr::before {
-  content: "";
+  content: '';
   height: 10px;
   width: 100%;
   display: block;
@@ -153,7 +153,7 @@
 }
 
 .header__notify::before {
-  content: "";
+  content: '';
   border-width: 10px 20px;
   border-style: solid;
   border-color: transparent transparent var(--white-color) transparent;
@@ -163,7 +163,7 @@
 }
 
 .header__notify::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 15px;
@@ -385,7 +385,7 @@
 }
 
 .form__sub-text::before {
-  content: "";
+  content: '';
   border-left: 1px solid #ccc;
   height: 12px;
   position: relative;
@@ -545,7 +545,7 @@
 }
 
 .header__cart::before {
-  content: "";
+  content: '';
   border-width: 6px 10px;
   border-style: solid;
   border-color: transparent transparent #fff transparent;
@@ -684,7 +684,7 @@
 }
 
 .header__user-list::before {
-  content: "";
+  content: '';
   border-width: 4px 8px;
   border-style: solid;
   border-color: transparent transparent var(--white-color) transparent;
@@ -777,7 +777,7 @@
 }
 
 .category--click .category__item-link::before {
-  content: "";
+  content: '';
   border-width: 4px 6px;
   border-style: solid;
   border-color: transparent transparent transparent var(--shopee-color);
@@ -1003,7 +1003,7 @@
 }
 
 .home-product__item-label1::before {
-  content: "";
+  content: '';
   border-top: 3px solid var(--shopee-color);
   border-left: 3px solid transparent;
   position: absolute;
@@ -1035,7 +1035,7 @@
 }
 
 .home-product__item-sale-label::after {
-  content: "";
+  content: '';
   border-width: 0 20px 6px;
   border-style: solid;
   border-color: rgb(240, 206, 58) rgb(240, 206, 58) transparent
@@ -1043,4 +1043,34 @@
   position: absolute;
   top: 100%;
   right: 0;
+}
+
+.buy-product {
+  position: absolute;
+  bottom: 3px;
+  left: 30%;
+  right: 40%;
+  background-color: var(--shopee-color);
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  line-height: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
+/* Edit CSS */
+
+.header__navbar-item.header--user {
+  display: none;
+}
+
+.header__navbar-item.header--active {
+  display: block !important;
+}
+
+.header--no-active {
+  display: none;
 }

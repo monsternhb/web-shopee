@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
 
+    <script defer src="./assets/script.js"></script>
+
     <title>Shopee</title>
   </head>
   <body>
@@ -127,12 +129,18 @@
                   Tro giup</a
                 >
               </li>
-              <!-- <li class="header__navbar-item navbar__item--bold">Dang ky</li>
+
               <li
-                class="header__navbar-item navbar__item--bold navbar__item--sperate"
+                class="header__navbar-item navbar__item--bold header__register"
+              >
+                Dang ky
+              </li>
+              <li
+                class="header__navbar-item navbar__item--bold navbar__item--sperate header__login"
               >
                 Dang nhap
-              </li> -->
+              </li>
+
               <li class="header__navbar-item header--user">
                 <i class="header__user-icon fa-solid fa-user"></i>
                 <span class="header__user-name">Nguyen Hoang Bao</span>
@@ -221,7 +229,7 @@
                 <div class="header__cart-list">
                   <h3 class="cart__list-heading">Danh sach san pham da mua</h3>
                   <ul class="cart__list-list">
-                    <li class="cart__list-item">
+                    <!-- <li class="cart__list-item">
                       <img
                         src="./assets/img/kem.jpg"
                         alt=""
@@ -238,64 +246,7 @@
                           <span class="list__sub--delete">Xoa</span>
                         </div>
                       </div>
-                    </li>
-
-                    <li class="cart__list-item">
-                      <img
-                        src="./assets/img/kem.jpg"
-                        alt=""
-                        class="cart__list-img"
-                      />
-
-                      <div class="cart__list-info">
-                        <div class="cart__list-main">
-                          <div class="list__main-1">Bo kem dac tri</div>
-                          <div class="list__main-2">20000x1</div>
-                        </div>
-                        <div class="cart__list-sub">
-                          <div class="list__sub-1">Phan loai hang: Bac</div>
-                          <span class="list__sub--delete">Xoa</span>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li class="cart__list-item">
-                      <img
-                        src="./assets/img/kem.jpg"
-                        alt=""
-                        class="cart__list-img"
-                      />
-
-                      <div class="cart__list-info">
-                        <div class="cart__list-main">
-                          <div class="list__main-1">Bo kem dac tri</div>
-                          <div class="list__main-2">20000x1</div>
-                        </div>
-                        <div class="cart__list-sub">
-                          <div class="list__sub-1">Phan loai hang: Bac</div>
-                          <span class="list__sub--delete">Xoa</span>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li class="cart__list-item">
-                      <img
-                        src="./assets/img/kem.jpg"
-                        alt=""
-                        class="cart__list-img"
-                      />
-
-                      <div class="cart__list-info">
-                        <div class="cart__list-main">
-                          <div class="list__main-1">Bo kem dac tri</div>
-                          <div class="list__main-2">20000x1</div>
-                        </div>
-                        <div class="cart__list-sub">
-                          <div class="list__sub-1">Phan loai hang: Bac</div>
-                          <span class="list__sub--delete">Xoa</span>
-                        </div>
-                      </div>
-                    </li>
+                    </li> -->
                   </ul>
 
                   <button class="header__btn-view-cart btn btn--primary">
@@ -369,7 +320,8 @@
               <div class="home-product">
                 <div class="grid__row">
                   <!--Each product-->
-                  <div class="grid__column-2-4">
+
+                  <!-- <div class="grid__column-2-4">
                     <div class="home-product__item">
                       <div
                         class="home-product__item-img"
@@ -381,12 +333,12 @@
                         Set duong trang dong hoa hoang cung tu hoang cung
                       </h5>
                       <div class="home-product__item-price">
-                        <span class="product-item__old-price">11110</span>
-                        <span class="product-item__new-price">11111d</span>
+                        <span class="product-item__old-price">200.000d</span>
+                        <span class="product-item__new-price">500.000d</span>
                       </div>
 
                       <div class="home-product__item-icon">
-                        <!--product-icon--active-->
+                        
                         <div class="home-product__icon-heart">
                           <i class="icon__heart--no-like fas fa-heart"></i>
                           <i class="icon__heart--liked fas fa-heart"></i>
@@ -407,55 +359,7 @@
                         >
                       </div>
 
-                      <div class="home-product__item-label1">
-                        <i class="fas fa-check"></i>
-                        Yeu thich
-                      </div>
-
-                      <div class="home-product__item-label2">
-                        <span class="home-product__item-sale-percent">10%</span>
-                        <span class="home-product__item-sale-label">GIAM</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="grid__column-2-4">
-                    <div class="home-product__item">
-                      <div
-                        class="home-product__item-img"
-                        style="
-                          background-image: url(https://cf.shopee.vn/file/c3f132d6c7c316869e722560057e5e34_tn);
-                        "
-                      ></div>
-                      <h5 class="product__item-name">
-                        Set duong trang dong hoa hoang cung tu hoang cung
-                      </h5>
-                      <div class="home-product__item-price">
-                        <span class="product-item__old-price">11110</span>
-                        <span class="product-item__new-price">11111d</span>
-                      </div>
-
-                      <div class="home-product__item-icon">
-                        <!--product-icon--active-->
-                        <div class="home-product__icon-heart">
-                          <i class="icon__heart--no-like fas fa-heart"></i>
-                          <i class="icon__heart--liked fas fa-heart"></i>
-                        </div>
-                        <div class="home-product__icon-star">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                        </div>
-                      </div>
-
-                      <div class="home-product__item-origin">
-                        <span class="home-product__item-brand">Whoo</span>
-                        <span class="home-product__item-origin-name"
-                          >Nhihongo</span
-                        >
-                      </div>
+                      <button class="buy-product">Order</button>
 
                       <div class="home-product__item-label1">
                         <i class="fas fa-check"></i>
@@ -467,57 +371,7 @@
                         <span class="home-product__item-sale-label">GIAM</span>
                       </div>
                     </div>
-                  </div>
-
-                  <div class="grid__column-2-4">
-                    <div class="home-product__item">
-                      <div
-                        class="home-product__item-img"
-                        style="
-                          background-image: url(https://cf.shopee.vn/file/c3f132d6c7c316869e722560057e5e34_tn);
-                        "
-                      ></div>
-                      <h5 class="product__item-name">
-                        Set duong trang dong hoa hoang cung tu hoang cung
-                      </h5>
-                      <div class="home-product__item-price">
-                        <span class="product-item__old-price">11110</span>
-                        <span class="product-item__new-price">11111d</span>
-                      </div>
-
-                      <div class="home-product__item-icon">
-                        <!--product-icon--active-->
-                        <div class="home-product__icon-heart">
-                          <i class="icon__heart--no-like fas fa-heart"></i>
-                          <i class="icon__heart--liked fas fa-heart"></i>
-                        </div>
-                        <div class="home-product__icon-star">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                        </div>
-                      </div>
-
-                      <div class="home-product__item-origin">
-                        <span class="home-product__item-brand">Whoo</span>
-                        <span class="home-product__item-origin-name"
-                          >Nhihongo</span
-                        >
-                      </div>
-
-                      <div class="home-product__item-label1">
-                        <i class="fas fa-check"></i>
-                        Yeu thich
-                      </div>
-
-                      <div class="home-product__item-label2">
-                        <span class="home-product__item-sale-percent">10%</span>
-                        <span class="home-product__item-sale-label">GIAM</span>
-                      </div>
-                    </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -532,32 +386,34 @@
         <div class="modal__overlay"></div>
         <div class="modal__body">
           <!--Register form-->
-          <div class="auth__form">
+          <div class="auth__form auth__form-register modal--disable">
             <div class="form__container">
               <div class="form__header">
                 <h3 class="form__header-text">Dang ky</h3>
-                <button class="form__header-btn">Dang nhap</button>
+                <button class="form__header-btn btn__login--change">
+                  Dang nhap
+                </button>
               </div>
 
               <div class="form__contain">
                 <div class="form__contain-group">
                   <input
                     type="text"
-                    class="form__cointain-input"
+                    class="form__cointain-input form__res-email"
                     placeholder="Nhap email"
                   />
                 </div>
                 <div class="form__contain-group">
                   <input
                     type="password"
-                    class="form__cointain-input"
+                    class="form__cointain-input form__res-pass"
                     placeholder="Nhap password"
                   />
                 </div>
                 <div class="form__contain-group">
                   <input
                     type="password"
-                    class="form__cointain-input"
+                    class="form__cointain-input form__res-re-pass"
                     placeholder="Nhap lai password"
                   />
                 </div>
@@ -573,7 +429,7 @@
 
               <div class="form__controls">
                 <button class="btn btn__control--back">Back</button>
-                <button class="btn btn--primary">Dang ky</button>
+                <button class="btn btn--primary btn__register">Dang ky</button>
               </div>
             </div>
 
@@ -590,25 +446,27 @@
           </div>
 
           <!--Login form-->
-          <div class="auth__form modal--disable">
+          <div class="auth__form auth__form-login">
             <div class="form__container">
               <div class="form__header">
                 <h3 class="form__header-text">Dang nhap</h3>
-                <button class="form__header-btn">Dang ky</button>
+                <button class="form__header-btn btn__login--change">
+                  Dang ky
+                </button>
               </div>
 
               <div class="form__contain">
                 <div class="form__contain-group">
                   <input
                     type="text"
-                    class="form__cointain-input"
+                    class="form__cointain-input form__login-user"
                     placeholder="Email/SDT/Ten dang nhap"
                   />
                 </div>
                 <div class="form__contain-group">
                   <input
                     type="password"
-                    class="form__cointain-input"
+                    class="form__cointain-input form__login-pass"
                     placeholder="Nhap password"
                   />
                 </div>
@@ -625,7 +483,7 @@
 
               <div class="form__controls">
                 <button class="btn btn__control--back">Tro lai</button>
-                <button class="btn btn--primary">Dang nhap</button>
+                <button class="btn btn--primary btn__login">Dang nhap</button>
               </div>
             </div>
 
