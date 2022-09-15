@@ -164,7 +164,7 @@ class App {
 
     // Render Cart List
 
-    this._renderCartList(this.currentUser.cart);
+    // this._renderCartList(this.currentUser.cart);
 
     // Attach event handlers
     headerRegister.addEventListener('click', this._openModal.bind(this));

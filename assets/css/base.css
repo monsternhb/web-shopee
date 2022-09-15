@@ -14,14 +14,14 @@
 html {
   font-size: 62.5%;
   line-height: 1.6rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
 
 /* Responsive */
 
 .grid {
-  width: 1400px;
+  width: 1200px;
   max-width: 100%;
   /* tu dong can giua */
   margin: 0 auto;
@@ -135,4 +135,40 @@ html {
   justify-content: space-between;
   font-size: 1.4rem;
   position: relative;
+}
+
+/* Pagination CSS */
+
+.pagination__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.pagination__item {
+  margin: 0 12px;
+}
+
+.pagination__item--active .pagination__link {
+  background-color: var(--shopee-color);
+  color: var(--white-color);
+  border-radius: 3px;
+}
+
+.pagination__item--active .pagination__link:hover {
+  background-color: #ed5c3f;
+}
+
+.pagination__link {
+  display: block;
+  --height: 30px;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #939393;
+  min-width: 40px;
+  height: var(--height);
+  line-height: var(--height);
+  text-align: center;
 }
